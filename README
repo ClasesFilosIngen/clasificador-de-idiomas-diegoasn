@@ -1,0 +1,9 @@
+Clasificador de idiomas
+
+dataframegen.py
+Lee los archivos a partir de los cuales se creará el dataframe de los idiomas (inglés, español y portugués) y crea el
+dataframe en formato csv, utilizando como indices los ngramas y como columnas los counts de los idiomas.
+
+clasificadorlenguaje.py
+Toma un documento de entrada, un dataframe que incluye los counts de los idiomas a analizar y determina su idioma 
+utilizando regla de Bayes.
